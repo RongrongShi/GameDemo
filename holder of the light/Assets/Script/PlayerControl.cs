@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class PlayerControl : MonoBehaviour
 {
-    public float moveSpeed = 5f;
-    public float rotateSpeed = 7f;
-    public float jumpSpeed = 8f;
-    public float sprintSpeed = 10f;
-    public float Fallmultiplier = 5.5f;
+    public float moveSpeed;
+    public float rotateSpeed;
+    public float jumpSpeed;
+    public float sprintSpeed;
+    public float Fallmultiplier;
 
     public bool isGround = true; //of het object op de ground staat
     public bool isDoubleJump = false;
