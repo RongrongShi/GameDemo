@@ -361,6 +361,7 @@
 "Assets/Script/PlatformControl.cs"
 "Assets/Script/PlayerControl.cs"
 "Assets/Script/Respawn.cs"
+"Assets/Script/RTLmovingPlatform.cs"
 "Assets/Stylized Nature Pack/Demo Scene/Standard Assets/Effects/ImageEffects/Scripts/Antialiasing.cs"
 "Assets/Stylized Nature Pack/Demo Scene/Standard Assets/Effects/ImageEffects/Scripts/Bloom.cs"
 "Assets/Stylized Nature Pack/Demo Scene/Standard Assets/Effects/ImageEffects/Scripts/BloomAndFlares.cs"

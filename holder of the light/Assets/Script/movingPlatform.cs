@@ -7,7 +7,7 @@ public class movingPlatform : MonoBehaviour
 
    [SerializeField]
     private Transform _targetA, _targetB;
-    private float _speed = 2.5f;
+    private float _speed = 5f;
     private bool _targetReached = false;
 
     private void FixedUpdate()
