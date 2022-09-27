@@ -357,6 +357,7 @@
 "Assets/Script/fallingPlatform.cs"
 "Assets/Script/jumpPads.cs"
 "Assets/Script/LTRmovingPlatform.cs"
+"Assets/Script/Mainmenu.cs"
 "Assets/Script/movingPlatform.cs"
 "Assets/Script/PlatformControl.cs"
 "Assets/Script/PlayerControl.cs"
