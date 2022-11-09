@@ -8,6 +8,10 @@ public class CameraControl : MonoBehaviour
     public float speed = 2.0f;
     public Vector3 offset = new Vector3(0, 5, -6);
 
+    private void Start()
+    {
+        objectToFollow = GameObject.FindWithTag("Player");
+    }
     void Update()
     {
         this.transform.position = Vector3.Lerp(this.transform.position, objectToFollow.transform.position + offset, speed + Time.deltaTime);

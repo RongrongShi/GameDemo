@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerControl : MonoBehaviour
 {
+    public static PlayerControl pC;
     public float moveSpeed;
     public float rotateSpeed;
     public float jumpSpeed;
@@ -19,6 +20,14 @@ public class PlayerControl : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        if(pC == null)
+        {
+            pC = this;
+        }
+        else
+        {
+            Destroy(this.gameObject);
+        }
         rb = GetComponent<Rigidbody>();
     }
 
@@ -63,7 +72,7 @@ public class PlayerControl : MonoBehaviour
         RaycastHit hit;
             if(Physics.Raycast(transform.position, -transform.up, out hit, 0.6f))
             {
-                Debug.Log(hit.transform.name);
+               // Debug.Log(hit.transform.name);
                 if (hit.transform.gameObject.layer == 6)
                 {
                     Debug.Log("We moven");

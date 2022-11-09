@@ -6,6 +6,7 @@ TagManager:
   tags:
   - ground
   - bridge
+  - global
   layers:
   - Default
   - TransparentFX
