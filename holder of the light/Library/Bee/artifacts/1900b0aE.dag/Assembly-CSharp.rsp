@@ -107,7 +107,6 @@
 -define:ENABLE_UNITY_COLLECTIONS_CHECKS
 -define:ENABLE_BURST_AOT
 -define:UNITY_TEAM_LICENSE
--define:UNITY_PRO_LICENSE
 -define:ENABLE_CUSTOM_RENDER_TEXTURE
 -define:ENABLE_DIRECTOR
 -define:ENABLE_LOCALIZATION
@@ -367,6 +366,7 @@
 "Assets/Script/Respawn.cs"
 "Assets/Script/RTLmovingPlatform.cs"
 "Assets/Script/SceneSwitcher.cs"
+"Assets/Script/TerrainPos.cs"
 "Assets/Stylized Nature Pack/Demo Scene/Standard Assets/Effects/ImageEffects/Scripts/Antialiasing.cs"
 "Assets/Stylized Nature Pack/Demo Scene/Standard Assets/Effects/ImageEffects/Scripts/Bloom.cs"
 "Assets/Stylized Nature Pack/Demo Scene/Standard Assets/Effects/ImageEffects/Scripts/BloomAndFlares.cs"

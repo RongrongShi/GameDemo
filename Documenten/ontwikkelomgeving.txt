@@ -1,0 +1,16 @@
+Windows 10 pro 64
+GP76 Leopard 11UH
+NVIDIA GeForce RTX 3080 Laptop GPU
+
+Unity Hub 3.3.0 
+editor 2021.3.2f1
+
+Ik heb voor deze versies gekozen omdat het destijds de nieuwste versie was.
+
+Visual Studio 2019
+Ik heb materialen gekocht van unity asset store. Ik heb volgende materialen gebruikt.
+1. De twee luchtmaterialen komen uit "All sky".
+2. Het model van de steen, de textuur van het gras, het model en de textuur van de boom, en de licht- en schaduwmaterialen(script) komen uit "Stylized Nature Pack".
+3. De textuur van de steen komt uit "Rocks and Boulders 2".
+4. Water van "standard Assets".
+5. Een textuur van de ground komt uit "TextMesh Pro".

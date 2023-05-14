@@ -1,0 +1,8 @@
+Testverslag
+
+01-nov Nadat het spel is uitgevoerd, kan het personage zoals gewoonlijk bewegen zonder te stotteren, maar als de snelheid van player te snel is, it will clipping. Ik heb de snelheid aangepast naar een drempel om te voorkomen dat de speler uit de kaart valt vanwege een te hoge snelheid. Maar tegelijkertijd is er een probleem dat de speler zich slecht voelt tijdens het bedienen.Dit probleem moet nog worden opgelost. Bovendien gebruik ik in het spel de platforms om de trappen een voor een op te bouwen.Wanneer de speler de zijkant van het object aanraakt, komt hij vast te zitten en kan hij de trap niet op door lang op de w-toets te drukken. 
+Om dit probleem op te lossen, moeten we eerst weten hoe we het bestaan ​​van trappen kunnen beoordelen.Na het voltooien van het oordeel, moet ik "MovePosition" API in Rigidbody in Unity gebruiken. Ten slotte denk ik dat het nodig is om een ​​tekstvak toe te voegen om de basisbedieningsmethoden en knoppen van de speler aan te geven. 
+
+Dami vindt dat er te veel materialen niet nodig zijn en dat het bedieningsgevoel van de speler niet erg soepel en zijdeachtig is. Tegelijkertijd is het ontwerp van sommige platforms te compact en is de springafstand van spelers zeer beperkt. 
+
+Junhuier vindt dat het licht en de schaduw erg goed zijn, maar ook dat sommige plaatsen een beetje hard zijn voor spelers om te passeren. Maar het ontwerp voor het schakelen tussen scènes van het tweede niveau is geweldig. Er is veel ruimte voor ontwikkeling, maar het leveldesign van het tweede level is middelmatig en voldeed niet aan zijn verwachtingen. 

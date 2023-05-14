@@ -1,0 +1,39 @@
+07-sep~12-sep  player movement script voltooid, basis->double jump, versnelling functie geimplementeerd.
+
+12-sep~17-sep heb github repositories verwijderd, opnieuw upload
+
+19-sep nieuwe terrain aangemaakt met Terrain Editor, maar de snelheid van de player wordt versneld. Nadat ik meerdere bestanden had gecontroleerd, ontdenkte ik de bomen die ik gebruikte zich ik een bestand met de naam"speed tree" bevonden. Ik verwijderd de bomen.
+
+20-sep portal aangemaakt, heb Particle System gebruikt voor de visuele effecten. 
+
+21-sep moving platform (right to left) aangemaakt. Start het leveldesign van het 1st level. 
+
+22-sep main menu aangemaakt, functie gerealiseerd.
+
+23-sep~24-sep main menu afgemaakt, het enige dat ik moet aanpassen zijn de lettertypen en kleuren(design), maar ik ga later doen.
+
+25-sep~27-sep portal kleur veranderd en functie geimplementeerd, de player kunt naar level2 via box collider(trigger).
+
+27-sep~05-okt sommige van mijn bestanden ontbreken door merge conflict, ik probeerd fix maar lukt niet. Rick heeft me geholpen en heb nu een nieuwe repositories. Het bestand is te groot en kan het niet naar de origin worden gepusht. Ik ga later doen.
+
+06-okt level2 terrain aanmaken
+
+10-okt terrain afgemaakt, skybox veranderd, moet nu scenes change functie realiseren. 
+
+11-okt Ik wil de player van scene wisselt wanner hij op de F drukt. Ik heb de hele kaart bedekt met een box maar zonder botsingsvolume. Dit kan bepalen in welke scene de player zich momenteel bevindt. Hierdoor kan de speler heen en weer schakelen tussen de twee scenes. 
+
+12-okt nog bezig met scene switch
+
+13-okt scene switch functie gerealiseerd, nu wil ik de positie van de player bewaren. namelijk, de positie van de player kan worden behouden bij het laden van de volgende scene.
+
+24-okt Heb DontDestroyOnLoad gebruikt om iets te bewaren, nu komt een probleem. Nadat playerA van sceneA naar sceneB is overgeschakeld, zijn er twee spelers in sceneB(playerA and playerB). Probeerd oplossen.
+
+25-okt "Destroy(this.gameObject);" dit lost de situatie op waarin meerdere spelers worden herhaald. En komt een nieuwe probleem. Er is een originele player in een scene. Als je de originele player verwijdert, kan je niet terugkeren naar de vorige scene. 
+
+26-okt Rick heeft mij geholpen, Player kunt nu naar believen van scene wisselen. Ik heb box collider(is trigger) helemaal niet nodig om scene te switch. Nu werkt allemaal perfect.
+
+27-okt Start nu leveldesign voor level2
+
+31-okt falling Platform afgemaakt, leveldesign nog bezig
+
+01-nov game demo afgemaakt, tekst worden later toegevoegd.
