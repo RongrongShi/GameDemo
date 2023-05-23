@@ -9,6 +9,7 @@ public class Respawn : MonoBehaviour
 
     void OnTriggerEnter(Collider player)
     {
+        // Wanneer de speler de trigger aanraakt, verplaats de speler naar het respawn punt
         player.transform.position = respawnPoint.transform.position;
     }
 }

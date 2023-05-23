@@ -10,10 +10,12 @@ public class CameraControl : MonoBehaviour
 
     private void Start()
     {
+        // Bereken de nieuwe positie van de camera door de huidige positie naar de positie van het te volgen object te verplaatsen met een offset
         objectToFollow = GameObject.FindWithTag("Player");
     }
     void Update()
     {
+        // Gebruik Lerp om geleidelijk naar de nieuwe positie te bewegen met een snelheid bepaald door de variabele "speed"
         this.transform.position = Vector3.Lerp(this.transform.position, objectToFollow.transform.position + offset, speed + Time.deltaTime);
     }
 }

@@ -34,9 +34,11 @@ public class PlayerControl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // Bepaal de bewegingsrichting op basis van de input van de speler
         Vector3 moveDir = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical")).normalized;
         moveAmount = moveDir * moveSpeed * Time.deltaTime;
 
+        // Bepaal de richting waarin de speler moet draaien
         Vector3 targetDir = Vector3.Slerp(transform.forward, moveDir, rotateSpeed * Time.deltaTime);
         transform.rotation = Quaternion.LookRotation(targetDir);
 
@@ -55,7 +57,7 @@ public class PlayerControl : MonoBehaviour
                 isJump = false;
             }
         }
-
+        // Versnellen als de speler de linker shift-toets ingedrukt houdt
         if (Input.GetKey(KeyCode.LeftShift))
         {
             moveAmount = moveDir * sprintSpeed * Time.deltaTime;
@@ -64,12 +66,15 @@ public class PlayerControl : MonoBehaviour
 
     private void FixedUpdate()
     {
+        // Beweeg de speler op basis van de berekende bewegingshoeveelheid
         rb.MovePosition(rb.position + moveAmount);
+        // Toepassen van de valversnelling als de speler niet op de grond staat
         if (!isGround)
         {
             rb.velocity += Vector3.up * Physics.gravity.y * Fallmultiplier * Time.deltaTime;  
         }
 
+        // Raycast om te detecteren of de speler op een bewegend platform staat
         RaycastHit hit;
             if(Physics.Raycast(transform.position, -transform.up, out hit, 0.6f))
             {
@@ -101,17 +106,16 @@ public class PlayerControl : MonoBehaviour
         }
     }
 
-    private void OnDrawGizmos()
+    /*private void OnDrawGizmos()                // Gizmos uittekenen
     {
-        Gizmos.color = Color.red;
+        Gizmos.color = Color.white;
         Gizmos.DrawLine(transform.position, transform.position - (transform.up * 0.6f));
-    }
+    }*/
         private void OnCollisionEnter(Collision collision)
     {
-        if (collision.transform.tag == "GameOver")
+        if (collision.transform.tag == "GameOver")   // eind punt,als de player aangeraakt
         {
-
-            GameEnd.isGameOver = true;
+            GameEnd.isGameOver = true;       //GameEnd script
             Debug.Log("xixixixi");
         }
     }

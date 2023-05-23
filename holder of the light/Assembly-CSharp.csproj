@@ -58,6 +58,7 @@
   <ItemGroup>
     <Compile Include="Assets\unityAssets\Stylized Nature Pack\Demo Scene\Standard Assets\Effects\ImageEffects\Scripts\ColorCorrectionCurves.cs" />
     <Compile Include="Assets\unityAssets\Stylized Nature Pack\Demo Scene\Standard Assets\Effects\ImageEffects\Scripts\ImageEffects.cs" />
+    <Compile Include="Assets\Script\Text.cs" />
     <Compile Include="Assets\unityAssets\Stylized Nature Pack\Demo Scene\Standard Assets\Effects\ImageEffects\Scripts\EdgeDetection.cs" />
     <Compile Include="Assets\unityAssets\Stylized Nature Pack\Demo Scene\Standard Assets\Effects\ImageEffects\Scripts\Blur.cs" />
     <Compile Include="Assets\unityAssets\Stylized Nature Pack\Demo Scene\Standard Assets\Effects\ImageEffects\Scripts\SunShafts.cs" />
@@ -68,11 +69,12 @@
     <Compile Include="Assets\unityAssets\Standard Assets\Environment\Water\Water\Scripts\PlanarReflection.cs" />
     <Compile Include="Assets\unityAssets\Standard Assets\Environment\Water (Basic)\Scripts\WaterBasic.cs" />
     <Compile Include="Assets\unityAssets\Stylized Nature Pack\Demo Scene\Standard Assets\Effects\ImageEffects\Scripts\Bloom.cs" />
-    <Compile Include="Assets\Script\PlatformControl.cs" />
     <Compile Include="Assets\unityAssets\Stylized Nature Pack\Demo Scene\Standard Assets\Effects\ImageEffects\Scripts\BloomAndFlares.cs" />
+    <Compile Include="Assets\Script\GameEnd.cs" />
     <Compile Include="Assets\unityAssets\Stylized Nature Pack\Demo Scene\Standard Assets\Effects\ImageEffects\Scripts\ScreenOverlay.cs" />
     <Compile Include="Assets\unityAssets\Stylized Nature Pack\Demo Scene\Standard Assets\Effects\ImageEffects\Scripts\BlurOptimized.cs" />
     <Compile Include="Assets\Script\TerrainPos.cs" />
+    <Compile Include="Assets\Script\luchtmuurPos.cs" />
     <Compile Include="Assets\unityAssets\Stylized Nature Pack\Demo Scene\Standard Assets\Effects\ImageEffects\Scripts\BloomOptimized.cs" />
     <Compile Include="Assets\unityAssets\Stylized Nature Pack\Demo Scene\Standard Assets\Effects\ImageEffects\Scripts\DepthOfField.cs" />
     <Compile Include="Assets\unityAssets\Stylized Nature Pack\Demo Scene\Standard Assets\Effects\ImageEffects\Scripts\NoiseAndScratches.cs" />
@@ -84,6 +86,7 @@
     <Compile Include="Assets\Script\PlayerControl.cs" />
     <Compile Include="Assets\unityAssets\Stylized Nature Pack\Demo Scene\Standard Assets\Effects\ImageEffects\Scripts\ColorCorrectionLookup.cs" />
     <Compile Include="Assets\unityAssets\Stylized Nature Pack\Demo Scene\Standard Assets\Effects\ImageEffects\Scripts\Twirl.cs" />
+    <Compile Include="Assets\Script\activeTextLine.cs" />
     <Compile Include="Assets\unityAssets\Stylized Nature Pack\Demo Scene\Standard Assets\Effects\ImageEffects\Scripts\Quads.cs" />
     <Compile Include="Assets\unityAssets\Stylized Nature Pack\Demo Scene\Standard Assets\Effects\ImageEffects\Scripts\TiltShift.cs" />
     <Compile Include="Assets\Script\MainMenu.cs" />
@@ -94,9 +97,11 @@
     <Compile Include="Assets\Script\pauseMenu.cs" />
     <Compile Include="Assets\Script\level2change.cs" />
     <Compile Include="Assets\unityAssets\Stylized Nature Pack\Demo Scene\Standard Assets\Effects\ImageEffects\Scripts\ContrastEnhance.cs" />
+    <Compile Include="Assets\Script\TextBoxManager.cs" />
     <Compile Include="Assets\Script\SceneSwitcher.cs" />
     <Compile Include="Assets\Script\movingPlatform.cs" />
     <Compile Include="Assets\unityAssets\Stylized Nature Pack\Demo Scene\Standard Assets\Effects\ImageEffects\Scripts\CameraMotionBlur.cs" />
+    <Compile Include="Assets\Script\RespawnPos.cs" />
     <Compile Include="Assets\unityAssets\Stylized Nature Pack\Demo Scene\Standard Assets\Effects\ImageEffects\Scripts\GlobalFog.cs" />
     <Compile Include="Assets\unityAssets\Standard Assets\Environment\Water\Water\Scripts\WaterTile.cs" />
     <Compile Include="Assets\unityAssets\Stylized Nature Pack\Demo Scene\Standard Assets\Effects\ImageEffects\Scripts\PostEffectsBase.cs" />
@@ -116,16 +121,11 @@
     <Compile Include="Assets\Script\Respawn.cs" />
     <Compile Include="Assets\Script\fallingPlatform.cs" />
     <Compile Include="Assets\unityAssets\Standard Assets\Environment\Water\Water\Scripts\Water.cs" />
+    <Compile Include="Assets\Script\videoControll.cs" />
     <Compile Include="Assets\unityAssets\Stylized Nature Pack\Demo Scene\Standard Assets\Effects\ImageEffects\Scripts\Fisheye.cs" />
     <Compile Include="Assets\unityAssets\Stylized Nature Pack\Demo Scene\Standard Assets\Effects\ImageEffects\Scripts\MotionBlur.cs" />
     <Compile Include="Assets\unityAssets\Stylized Nature Pack\Demo Scene\Standard Assets\Effects\ImageEffects\Scripts\CreaseShading.cs" />
     <Compile Include="Assets\Script\LTRmovingPlatform.cs" />
-    <Compile Include="Assets\Script\videoControll.cs" />
-    <Compile Include="Assets\Script\Text.cs" />
-    <Compile Include="Assets\Script\TextBoxManager.cs" />
-    <Compile Include="Assets\Script\activeTextLine.cs" />
-    <Compile Include="Assets\Script\GameEnd.cs" />
-    <Compile Include="Assets\Script\luchtmuurPos.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\unityAssets\Stylized Nature Pack\Demo Scene\Standard Assets\Effects\ImageEffects\Shaders\Tonemapper.shader" />

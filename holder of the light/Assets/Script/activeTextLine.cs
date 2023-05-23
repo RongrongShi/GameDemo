@@ -9,7 +9,8 @@ public class activeTextLine : MonoBehaviour
     public int startLine;
     public int endLine;
     public TextBoxManager theTextBox;
-    public bool destroy;
+    public bool destroy; // Of het object moet worden vernietigd na het activeren van de dialoog
+
     // Start is called before the first frame update
     void Start()
     {
@@ -25,14 +26,14 @@ public class activeTextLine : MonoBehaviour
     {
         if(collision.tag == "Player")
         {
-            theTextBox.ReloadScript(theText);
+            theTextBox.ReloadScript(theText); // Laad de opgegeven tekst in de TextBoxManager
             theTextBox.currentLine = startLine;
             theTextBox.endAtline = endLine;
-            theTextBox.EnableTextBox();
+            theTextBox.EnableTextBox(); // Activeer de dialoog
         }
         if (destroy)
         {
-            Destroy(gameObject);
+            Destroy(gameObject); // Vernietig het object als 'destroy' is ingesteld op true
         }
     }
 }

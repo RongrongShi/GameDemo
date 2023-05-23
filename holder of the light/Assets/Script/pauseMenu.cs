@@ -45,7 +45,6 @@ public class pauseMenu : MonoBehaviour
 
     public void QuitGame()
     {
-        Application.Quit();
-        //Debug.Log("Quit");
+        Application.Quit();   //klik op de button om het spel te verlaten
     }
 }

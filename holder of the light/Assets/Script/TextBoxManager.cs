@@ -6,16 +6,16 @@ using TMPro;
 public class TextBoxManager : MonoBehaviour
 {
     public GameObject textBox;
-    public TextMeshProUGUI theTextMeshPro;
+    public TextMeshProUGUI theTextMeshPro; // Tekstmeshpro-component
     // Start is called before the first frame update
     public TextAsset textfile;
     public string[] textLines;
 
-    public int currentLine;
+    public int currentLine; // Huidige regel in de tekst
     public int endAtline;
     public PlayerControl player;
 
-    public bool isActive;
+    public bool isActive; // Geeft aan of de tekstbox actief is
 
     void Start()
     {
@@ -26,7 +26,7 @@ public class TextBoxManager : MonoBehaviour
         }
         if(endAtline == 0)
         {
-            endAtline = textLines.Length - 1;
+            endAtline = textLines.Length - 1;  // Stel de eindregel in op de laatste regel als deze niet is opgegeven
         }
         if (isActive)
         {
@@ -43,18 +43,19 @@ public class TextBoxManager : MonoBehaviour
     {
         if (!isActive)
         {
-            return;
+            return;       // Als de tekstbox niet actief is, wordt de update-functie vroegtijdig verlaten
         }
-        theTextMeshPro.text = textLines[currentLine];
+        theTextMeshPro.text = textLines[currentLine]; // Toon de tekst van de huidige regel in de TextMeshPro-component
+
 
         if (Input.GetKeyDown(KeyCode.Return))
         {
-            currentLine += 1;
+            currentLine += 1;   // Ga naar de volgende regel als de Return-toets wordt ingedrukt
         }
 
         if(currentLine > endAtline)
         {
-            DisableTextBox();
+            DisableTextBox();     // Deactiveer de tekstbox als de huidige regel de eindregel heeft overschreden
         }
     }
     public void EnableTextBox()
@@ -72,7 +73,7 @@ public class TextBoxManager : MonoBehaviour
     {
         if(theTextMeshPro != null)
         {
-            textLines = new string[1];
+            textLines = new string[1];  // Maak een nieuwe array met ижижn element
             textLines = (theTextMeshPro.text.Split('\n'));
         }
     }

@@ -6,9 +6,9 @@ public class movingPlatform : MonoBehaviour
 {
 
    [SerializeField]
-    private Transform _targetA, _targetB;
-    private float _speed = 5f;
-    private bool _targetReached = false;
+    private Transform _targetA, _targetB; // Doelposities van de platformbeweging
+    private float _speed = 5f; // Snelheid van de platformbeweging
+    private bool _targetReached = false; // Geeft aan of het doel is bereikt
 
     private void FixedUpdate()
     {

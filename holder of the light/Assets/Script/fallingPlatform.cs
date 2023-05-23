@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class fallingPlatform : MonoBehaviour
 {
-    bool isFalling = false;
+    /*bool isFalling = false;
     float downSpeed = 0;
     GameObject FallingPlatform;
     public GameObject fallingPlatformPrefab;
@@ -30,6 +30,6 @@ public class fallingPlatform : MonoBehaviour
             downSpeed += Time.deltaTime / 60;
             transform.position = new Vector3(transform.position.x, transform.position.y - downSpeed, transform.position.z);
         }
-    }
+    }*/
 
 }

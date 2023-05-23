@@ -16,13 +16,13 @@ public class GameEnd : MonoBehaviour
         if (isGameOver)
         {
             gameOverScreen.SetActive(true);
-            Time.timeScale = 0f;
+            Time.timeScale = 0f;  // stop player move
         }
     }
     public void QuitGame()
     {
         Application.Quit();
-        Debug.Log("quit");
+        //Debug.Log("quit");
     }
 
 }
