@@ -7,7 +7,7 @@ public class MainMenu : MonoBehaviour
 {
     public void PlayGame()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1); // klik op de button om het spel te laden/starten
+        SceneManager.LoadScene("1st scene"); // klik op de button om het spel te laden/starten
     }
     public void QuitGame()
     {

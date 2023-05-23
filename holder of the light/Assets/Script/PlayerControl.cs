@@ -61,6 +61,7 @@ public class PlayerControl : MonoBehaviour
             moveAmount = moveDir * sprintSpeed * Time.deltaTime;
         }
     }
+
     private void FixedUpdate()
     {
         rb.MovePosition(rb.position + moveAmount);
@@ -104,5 +105,14 @@ public class PlayerControl : MonoBehaviour
     {
         Gizmos.color = Color.red;
         Gizmos.DrawLine(transform.position, transform.position - (transform.up * 0.6f));
+    }
+        private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.transform.tag == "GameOver")
+        {
+
+            GameEnd.isGameOver = true;
+            Debug.Log("xixixixi");
+        }
     }
 }

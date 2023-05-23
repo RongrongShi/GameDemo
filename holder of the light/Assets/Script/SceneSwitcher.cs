@@ -34,7 +34,7 @@ public class SceneSwitcher : MonoBehaviour
             PlayerPrefs.SetFloat("playerPosX", player.transform.position.x);
             PlayerPrefs.SetFloat("playerPosY", player.transform.position.y);
             PlayerPrefs.SetFloat("playerPosZ", player.transform.position.z);
-            SceneManager.LoadScene(3, LoadSceneMode.Single);
+            SceneManager.LoadScene(4, LoadSceneMode.Single);
             //Debug.Log("Collide1");
 
         }
@@ -43,7 +43,7 @@ public class SceneSwitcher : MonoBehaviour
             PlayerPrefs.SetFloat("playerPosX", player.transform.position.x);
             PlayerPrefs.SetFloat("playerPosY", player.transform.position.y);
             PlayerPrefs.SetFloat("playerPosZ", player.transform.position.z);
-            SceneManager.LoadScene(2, LoadSceneMode.Single);
+            SceneManager.LoadScene(3, LoadSceneMode.Single);
             //Debug.Log("Collide2");
 
         }
