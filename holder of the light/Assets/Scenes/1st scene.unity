@@ -8387,10 +8387,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a72001fcfb77d048b55b036237a5379, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 13
+  moveSpeed: 15
   rotateSpeed: 6
   jumpSpeed: 305
-  sprintSpeed: 18
+  sprintSpeed: 22
   Fallmultiplier: 1.4
   isGround: 1
   isDoubleJump: 1
@@ -14554,7 +14554,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aba4cc856759f9349bdb1c6acce426c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fallingPlatformPrefab: {fileID: 0}
 --- !u!65 &731280431
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17607,8 +17606,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 4.9542885, z: 5.085895}
-  m_Center: {x: -1.7930007e-17, y: 1.1634655, z: -0.005167961}
+  m_Size: {x: 1, y: 5.904583, z: 5.085895}
+  m_Center: {x: -1.7930007e-17, y: 0.68831825, z: -0.005167961}
 --- !u!114 &1134744627
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23813,7 +23812,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aba4cc856759f9349bdb1c6acce426c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fallingPlatformPrefab: {fileID: 0}
 --- !u!65 &1473642890
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25012,8 +25010,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1624250700}
-  m_LocalRotation: {x: -0.20827264, y: 0, z: 0, w: 0.97807086}
-  m_LocalPosition: {x: -6.39, y: -69.740005, z: -19.39}
+  m_LocalRotation: {x: 0.042260725, y: 0.019763976, z: -0.013943745, w: -0.9988138}
+  m_LocalPosition: {x: -6.3595753, y: -60.60527, z: -14.424511}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -26139,7 +26137,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aba4cc856759f9349bdb1c6acce426c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fallingPlatformPrefab: {fileID: 0}
 --- !u!65 &1768511199
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26237,7 +26234,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aba4cc856759f9349bdb1c6acce426c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fallingPlatformPrefab: {fileID: 0}
 --- !u!65 &1816760900
 BoxCollider:
   m_ObjectHideFlags: 0
